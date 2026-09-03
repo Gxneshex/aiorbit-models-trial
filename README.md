@@ -93,4 +93,4 @@ python src/convert_to_excel.py
 
 ## 🔗 Live Data & Google Sheets
 
-- **Google Sheets Published Dataset**: `https://docs.google.com/spreadsheets/d/1nWU1-Ur1KYt5_yy290zKEhKbMHadjNMKjHrD656ixKE/edit?usp=sharing` *(Upload `data/clean/AIOrbit_Models_Dataset.xlsx` to Google Sheets and set sharing to "Anyone with the link can view")*
+- **Google Sheets Published Dataset**: `https://docs.google.com/spreadsheets/d/1nWU1-Ur1KYt5_yy290zKEhKbMHadjNMKjHrD656ixKE/edit?usp=sharing` 
