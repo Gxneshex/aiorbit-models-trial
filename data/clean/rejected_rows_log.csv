@@ -1,0 +1,84 @@
+Display Name,Provider,Rejection Reason
+OrcaRouter Fusion Mini,orcarouter,meta/router pseudo-model
+OrcaRouter Auto,orcarouter,meta/router pseudo-model
+OrcaRouter Fusion,orcarouter,meta/router pseudo-model
+OrcaRouter Fusion Flash,orcarouter,meta/router pseudo-model
+OrcaRouter Free,orcarouter,meta/router pseudo-model
+Auto model,nano-gpt,meta/router pseudo-model
+Venice Uncensored,nano-gpt,junk/spam name pattern
+Auto model (Basic),nano-gpt,meta/router pseudo-model
+Auto model (Premium),nano-gpt,meta/router pseudo-model
+Gemma 4 26B A4B Uncensored Thinking,nano-gpt,junk/spam name pattern
+Auto model (Standard),nano-gpt,meta/router pseudo-model
+Gemma 4 26B A4B Uncensored,nano-gpt,junk/spam name pattern
+Omega Directive 24B Unslop v2.0,nano-gpt,junk/spam name pattern
+Llama 3.1 8b (uncensored),nano-gpt,junk/spam name pattern
+Abliterated Model Large,nano-gpt,junk/spam name pattern
+Abliterated Model Large V2,nano-gpt,junk/spam name pattern
+Abliterated Model,nano-gpt,junk/spam name pattern
+GLM 5.3 Flash Uncensored,nano-gpt,junk/spam name pattern
+DeepSeek R1 Qwen Abliterated,nano-gpt,junk/spam name pattern
+Qwen 2.5 32B Abliterated,nano-gpt,junk/spam name pattern
+Llama 3.3 70B Instruct abliterated,nano-gpt,junk/spam name pattern
+DeepSeek R1 Llama 70B Abliterated,nano-gpt,junk/spam name pattern
+Llama 3 70B abliterated,nano-gpt,junk/spam name pattern
+Qwen 3.8 27B Uncensored Thinking,nano-gpt,junk/spam name pattern
+Qwen 3.8 27B Uncensored,nano-gpt,junk/spam name pattern
+Neural Daredevil 8B abliterated,nano-gpt,junk/spam name pattern
+Gemma 4 26B A4B Uncensored TEE,nano-gpt,junk/spam name pattern
+Qwen3.6 35B A3B Uncensored TEE,nano-gpt,junk/spam name pattern
+Abliterated Model Large,abliteration-ai,junk/spam name pattern
+Abliterated Model Large V2,abliteration-ai,junk/spam name pattern
+Abliterated Model,abliteration-ai,junk/spam name pattern
+Auto,model-oracle-ai,meta/router pseudo-model
+Uncensored,openrouter,junk/spam name pattern
+Auto Router,openrouter,meta/router pseudo-model
+Brick v1 Beta,regolo-ai,meta/router pseudo-model
+Lynkr Auto (complexity routing),lynkr,meta/router pseudo-model
+Standard Compute,standardcompute,meta/router pseudo-model
+Model Router,azure-cognitive-services,meta/router pseudo-model
+Model Router,azure,meta/router pseudo-model
+Auto,trustedrouter,meta/router pseudo-model
+Auto,morph,meta/router pseudo-model
+Auto,tencent-coding-plan,meta/router pseudo-model
+Custom Model,llmgateway,meta/router pseudo-model
+Auto Route,llmgateway,meta/router pseudo-model
+Venice: Uncensored,kilo,junk/spam name pattern
+Auto Router,kilo,meta/router pseudo-model
+Auto Small,kilo,meta/router pseudo-model
+Auto Frontier,kilo,meta/router pseudo-model
+Auto Efficient,kilo,meta/router pseudo-model
+Auto Balanced,kilo,meta/router pseudo-model
+Auto Free,kilo,meta/router pseudo-model
+Pioneer Auto,pioneer,meta/router pseudo-model
+Venice Role Play Uncensored,venice,junk/spam name pattern
+Venice Uncensored 1.2,venice,junk/spam name pattern
+Gemma 4 Uncensored,venice,junk/spam name pattern
+Qwen 3.6 Plus Uncensored,venice,junk/spam name pattern
+Mistral: Mixtral 8x7B Instruct,nvidia,"reseller-only rebrand, no clean source name in group"
+Qwen: QvQ Max,nano-gpt,"reseller-only rebrand, no clean source name in group"
+AionLabs: Aion 3.0,nano-gpt,"reseller-only rebrand, no clean source name in group"
+AionLabs: Aion-3.0,kilo,"reseller-only rebrand, no clean source name in group"
+AionLabs: Aion-2.0,nano-gpt,"reseller-only rebrand, no clean source name in group"
+AionLabs: Aion-2.0,kilo,"reseller-only rebrand, no clean source name in group"
+AionLabs: Aion 3.0 Mini,nano-gpt,"reseller-only rebrand, no clean source name in group"
+AionLabs: Aion-3.0-Mini,kilo,"reseller-only rebrand, no clean source name in group"
+inclusionAI: Ring-2.6-1T,zenmux,"reseller-only rebrand, no clean source name in group"
+Anthropic: Claude 3.5 Sonnet v2,helicone,"reseller-only rebrand, no clean source name in group"
+Anthropic: Claude 3.7 Sonnet,helicone,"reseller-only rebrand, no clean source name in group"
+OpenAI: o1-mini,helicone,"reseller-only rebrand, no clean source name in group"
+Anthropic: Claude Opus 4.5,helicone,"reseller-only rebrand, no clean source name in group"
+Anthropic: Claude 4.5 Haiku,helicone,"reseller-only rebrand, no clean source name in group"
+Anthropic: Claude 3.5 Haiku,helicone,"reseller-only rebrand, no clean source name in group"
+Anthropic: Claude Sonnet 4.5,helicone,"reseller-only rebrand, no clean source name in group"
+OpenAI: GPT OSS 20B,novita-ai,"reseller-only rebrand, no clean source name in group"
+DeepSeek: R1 Distill Llama 70B,kilo,"reseller-only rebrand, no clean source name in group"
+ByteDance: UI-TARS 7B ,kilo,"reseller-only rebrand, no clean source name in group"
+OpenAI: GPT-4o-mini (2024-07-18),kilo,"reseller-only rebrand, no clean source name in group"
+OpenAI: GPT-5.6 Sol (50% off),kilo,"reseller-only rebrand, no clean source name in group"
+OpenAI: GPT Audio Mini,kilo,"reseller-only rebrand, no clean source name in group"
+StepFun: Step 3.7 Flash (free),kilo,"reseller-only rebrand, no clean source name in group"
+Qwen: Qwen3.5-Flash,kilo,"reseller-only rebrand, no clean source name in group"
+Qwen: Qwen3.5 Plus 2026-02-15,kilo,"reseller-only rebrand, no clean source name in group"
+TheDrummer: Cydonia 24B V4.1,kilo,"reseller-only rebrand, no clean source name in group"
+TheDrummer: UnslopNemo 12B,kilo,"reseller-only rebrand, no clean source name in group"
