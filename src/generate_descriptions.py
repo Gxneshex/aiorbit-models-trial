@@ -124,21 +124,27 @@ def main():
     fieldnames = list(rows[0].keys())
 
     # Resume support: if output already exists, load what's done and skip it
-    done_names = set()
-    existing_rows = []
+        # Resume support: only treat a row as "done" if it has a real, non-empty description
+    existing_by_name = {}
     if os.path.exists(OUTPUT_CSV):
         with open(OUTPUT_CSV, newline="", encoding="utf-8") as f:
-            existing_rows = list(csv.DictReader(f))
-        done_names = {r["Model Name"] for r in existing_rows}
-        print(f"Resuming: {len(done_names)} rows already done, skipping those.")
+            for r in csv.DictReader(f):
+                if r.get("Description (fill in via LLM)", "").strip():
+                    existing_by_name[r["Model Name"]] = r
+        print(f"Resuming: {len(existing_by_name)} rows already have real descriptions.")
 
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-        for r in existing_rows:
-            writer.writerow(r)  # keep what's already done
 
-        remaining = [r for r in rows if r["Model Name"] not in done_names]
+        remaining = []
+        for row in rows:
+            name = row["Model Name"]
+            if name in existing_by_name:
+                writer.writerow(existing_by_name[name])
+            else:
+                remaining.append(row)
+
         print(f"{len(remaining)} rows left to process.")
 
         for i, row in enumerate(remaining):
